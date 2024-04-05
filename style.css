@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Annapurna+SIL:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: "Annapurna SIL", serif;
+    font-size: xx-large;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.flag{
+    display: flex;
+    height: 5%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+.green{
+    height: 100%;
+    width: 33.3%;
+    background-color: #00863D;
+
+}
+.yellow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 33.4%;
+    background-color: #FDF040;
+
+}
+.checked {
+    color: #00863D;
+  }
+.red{
+    height: 100%;
+    width: 33.3%;
+    background-color:  #E4141D;
+}
+.header{
+    display: flex;
+    height: 15%;
+    width: 100%;
+    background-color: #b78383;
+    padding: 0;
+    margin-top: 2%;
+}
+.jub{
+    display: flex;
+    background-color: #00863D;
+    height: 100%;
+    width: 33.3%;
+    align-items: center;
+    justify-content: center;
+}
+.jubeul{
+    display: flex;
+    background-color: #FDF040;
+    height: 100%;
+    width: 33.4%;
+    align-items: center;
+    justify-content: center;
+}
+.jubanti{
+    display: flex;
+    background-color:  #E4141D;
+    height: 100%;
+    width: 33.3%;
+    align-items: center;
+    justify-content: center;
+}
+.separator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-variant: normal;
+    font-style: italic;
+    margin: 1%;
+}
+.main{
+   display: flex;
+   flex-direction: column;
+    height: 40%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.citations{
+    display: flex;
+     height: 50%;
+     width: 100%;
+     padding: 0;
+     margin-bottom: 3%;
+
+ }
+
+
+.citation{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 33.3%;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
+
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+    padding: 2%;
+    box-shadow:  #00863D 0px 0px 0px 4px, #FDF040 0px 0px 0px 8px,  #E4141D 0px 0px 0px 11px;
+
+}
+.author{
+    margin-top: 2%;
+
+}
+span{
+    font-weight: bold;
+    margin-top: 3%;
+
+}
